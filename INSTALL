@@ -1,0 +1,9 @@
+Building Plncoin
+
+See doc/readme-qt.rst for instructions on building Plncoin-Qt,
+the intended-for-end-users, nice-graphical-interface, reference
+implementation of Plncoin.
+
+See doc/build-*.txt for instructions on building plncoind,
+the intended-for-services, no-graphical-interface, reference
+implementation of Plncoin.
