@@ -10,13 +10,11 @@ What is PLNcoin?
 ----------------
 
 PLNcoin is a lite version of Bitcoin using scrypt as a proof-of-work algorithm.
- - 2.5 minute block targets
- - subsidy halves in 840k blocks (~4 years)
- - ~84 million total coins
-
-The rest is the same as Bitcoin.
- - 50 coins per block
- - 2016 blocks to retarget difficulty
+ - 1 minute block targets
+ - subsidy halves in 438k blocks
+ - 38 540 000 total coins
+ - 44 coins per block
+ - 4 hours to retarget difficulty
 
 For more information, as well as an immediately useable, binary version of
 the PLNcoin client sofware, see http://www.plncoin.org.
@@ -68,7 +66,7 @@ Unit tests for the core code are in `src/test/`. To compile and run them:
 
 Unit tests for the GUI code are in `src/qt/test/`. To compile and run them:
 
-    qmake BITCOIN_QT_TEST=1 -o Makefile.test bitcoin-qt.pro
+    qmake BITCOIN_QT_TEST=1 -o Makefile.test plncoin-qt.pro
     make -f Makefile.test
     ./plncoin-qt_test
 
