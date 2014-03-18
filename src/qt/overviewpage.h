@@ -50,7 +50,7 @@ public:
     void showOutOfSyncWarning2(bool fShow);
 
     void setHashes(const qint64 hashes);
-    const qint64 getHashes();
+    qint64 getHashes();
 
     enum MessageClass {
         MC_ERROR,

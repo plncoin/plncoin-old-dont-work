@@ -545,7 +545,7 @@ void OverviewPage::setHashes(const qint64 hashes)
     }
 }
 
-const qint64 OverviewPage::getHashes()
+qint64 OverviewPage::getHashes()
 {
     return this->hashes;
 }
