@@ -1192,12 +1192,13 @@ void MapPort(bool)
 // The first name is used as information source for addrman.
 // The second name should resolve to a list of seed addresses.
 static const char *strMainNetDNSSeed[][2] = {
-    {"plncoin.org", "seed.plncoin.org"},
-    {NULL, NULL}
+    {"plncoin.org", "plncoin.org"},
+    {"pool.plncoin.org", "pool.plncoin.org"}
 };
 
 static const char *strTestNetDNSSeed[][2] = {
-    {NULL, NULL}
+    {"plncoin.org", "plncoin.org"},
+    {"pool.plncoin.org", "pool.plncoin.org"}
 };
 
 void ThreadDNSAddressSeed()
