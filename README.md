@@ -1,3 +1,8 @@
+This is an old and no-code support please use PLNcoin_Core!
+This is an old and no-code support please use PLNcoin_Core!
+This is an old and no-code support please use PLNcoin_Core!
+
+
 PLNcoin integration/staging tree
 ================================
 
